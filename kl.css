@@ -1,0 +1,40 @@
+
+body{
+    background-image:url(bg.jpg);
+			height:auto;
+			background-size:cover;
+			background-position:center;
+    
+   
+}
+ 
+h1{
+font-size: 65px;
+text-align:center;
+text-shadow: 3px 4px 5px blue;
+}
+a{font-size:20px;}
+a:hover{ background-color: rgb(0, 217, 255);}
+li{ 
+font-size: 30px;}
+h3{font-size: 30px;
+}
+        table{
+                border: 3px;
+                margin:auto;
+                
+                margin-top: 50px;
+                font-family: arial;
+            }
+            table, th, td{
+                border: 2px solid black;
+                border-collapse: collapse;
+                padding: 20px;
+                font-size: 20px;
+            }
+            th{
+                background:rgb(7, 215, 243);
+                padding:30;
+                text-transform: uppercase;
+            }
+           

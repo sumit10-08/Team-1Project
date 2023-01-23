@@ -1,0 +1,13 @@
+body{
+    background-image:url(bg.jpg);
+			height:auto;
+			background-size:cover;
+			background-position:center;
+    
+   
+}
+ h1{
+font-size: 65px;
+text-align:center;
+text-shadow: 3px 4px 5px blue;
+}

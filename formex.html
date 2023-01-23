@@ -1,0 +1,167 @@
+<html>
+    <head><link rel="stylesheet" href="kll.css"></head>
+<body>
+<fieldset style="background-color:skyblue; width:500px; margin:auto">
+<h1 align="center">Registration Form</h1>
+
+<form action="post.php" method="post">
+<h3 aligh="center">Personal Details</h3>
+<table>
+<tr>
+<td><label><h4>Name:</h4></td><td><input type="text" name="name" required></td></tr></>
+<tr>
+<td><h4>Father Name:</h4></td><td><input type="text" name="fname" required></td></tr>
+<tr>
+<td><h4>Mother Name:</h4></td><td><input type="text" name="mname"required ></td></tr>
+<tr>
+<td><h4>Email ID:</h4></td><td><input type="email" name="email" required></td></tr>
+<tr>
+<td><h4>DOB:</h4></td><td><input type="date" name="dob" required></td></tr>
+<tr>
+<td><h4>Address:</h4></td><td><textarea name="address" rows="3" cols="20"></textarea></td></tr>
+<tr>
+<td><h4>Pincode</h4></td><td><input type="text" name="pin" maxlength="6"></td></tr>
+<tr>
+<td><h4>Gender:</h4></td>
+<td><input type="radio" name="gender" value="female">
+<label><b>Female</b></label>
+<input type="radio" name="gender" value="male">
+<label><b>Male</b></label>
+<input type="radio" name="gender" value="other">
+<label><b>Other</b></label></td></tr>
+<tr>
+<td><h4>Select Your Category</h4></td>
+<td>
+<select>
+<option value="select">Select</option>
+<option value="GEN">GEN</option>
+<option value="OBC">OBC</option>
+<option value="SC">SC</option>
+<option value="ST">ST</option></td>
+</select></tr>
+<tr>
+<td><h4>Select Your ID</h4></td>
+<td>
+<select>
+<option value="select">Select</option>
+<option value="AadharCard">AadharCard</option>
+<option value="PanCard">PANCard</option>
+<option value="VoterID">VoterID</option></td>
+</select></tr>
+<tr>
+<td><h4>ID Number:</h4></td><td><input type="text" name="id"></td></tr>
+</tr>
+<tr>
+<td><h4>Select your state</h4></td>
+<td>
+<select>
+<option value="Select">Select</option>
+<option value="Andhra Pradesh">Andhra Pradesh</option>
+<option value="">Arunachal Pradesh</option>
+<option value="">Assam</option>
+<option value="">Bihar</option>
+<option value="">chhatisgarh</option>
+<option value="Delhi">Delhi</option>
+<option value="">Goa</option>
+<option value="Gujrat">Gujrat</option>
+<option value="">Haryana</option>
+<option value="">Himachal Pradesh</option>
+<option value="">Jharkhand</option>
+<option value="">Karnataka</option>
+<option value="">Kerala</option>
+<option value="Madhya Pradesh">Madhya Pradesh</option>
+<option value="">Maharastra</option>
+<option value="">Manipur</option>
+<option value="">Meghalaya</option>
+<option value="">Mizoram</option>
+<option value="">Nagaland</option>
+<option value="">Odisha</option>
+<option value="">Punjab</option>
+<option value="">Rajasthan</option>
+<option value="">Sikkim</option>
+<option value="Tamil Nadu">Tamil Nadu</option>
+<option value="">Telanagana</option>
+<option value="">Tripura</option>
+<option value="Uttar Pradesh">Uttar Pradesh</option>
+<option value="Uttarakhand">Uttarakhand</option>
+<option value="">West Bengal</option>
+</select>
+</td></tr>
+<tr><td><hr></td></tr>
+<tr>
+<td>
+<h3>Academic Qualification</h3></td></tr>
+<tr>
+<td>10<sup>th</sup></td>
+</tr>
+<tr><td>Board</td>
+<td>
+<select>
+<option value="select">Select</option>
+<option value="up">UP Board</option>
+<option value="cbse">CBSE Board</option>
+</select>
+</td>
+<td><b>Subjects:</b></td><td><input type="text" name="sub"></td>
+<td><b>Marks:</b></td><td><input type="text" name="marks" placeholder="%"></td></tr>
+<tr>
+<td>12<sup>th</sup></td>
+</tr>
+<tr><td>Board</td>
+<td>
+<select>
+<option value="select">Select</option>
+<option value="up">UP Board</option>
+<option value="cbse">CBSE Board</option>
+</select>
+</td>
+<td><b>Subjects:</b></td><td><input type="text" name="sub"></td>
+<td><b>Marks:</b></td><td><input type="text" name="marks" placeholder="%"></td></tr>
+
+<tr>
+<td><h4>Your Intrest</  h4></td>
+</tr>
+<tr>
+<td>
+
+<input type="checkbox" name="check" value="HTML">
+<label><b>HTML</b></label><br>
+<input type="checkbox" name="check" value="CSS">
+<label><b>CSS</b></label><br>
+<input type="checkbox" name="check" value="JS">
+<label><b>JS</b></label><br>
+<input type="checkbox" name="check" value="JAVA">
+<label><b>JAVA</b></label><br>
+<input type="checkbox" name="check" value="Python">
+<label><b>Python</b></label>
+</td></tr>
+<tr>
+<td><h4>Uplaod a photo</h4></td>
+<td><input type="file" name="photo"></td>
+</tr>
+<tr>
+<td><h4>Uplaod a Signature</h4></td>
+<td><input type="file" name="signature"></td>
+</tr>
+</table>
+<tr>
+<td>
+<fieldset style="background-color:grey; margin:auto; width:200px">
+<legend>Login Details</legend></td></tr>
+<label><b>Registered Mobile No.:</b><input type="tel" name="phone" placeholder="1234-567-890" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" required>
+</label><br><label><b>Password:</b><input type="password" name="pswd"></label>
+</fieldset>
+<table>
+<tr>
+<td>
+<input type="submit" onclick="alert('You are successfully Registered')" value="Submit"></td></tr>
+</tr>
+<tr>
+<td>
+<input type="reset" onclick="alert('Your form has been successfully reset')" value="Reset"></td></tr>
+<tr>
+</table>
+</form>
+</fieldset>
+</body>
+</html>

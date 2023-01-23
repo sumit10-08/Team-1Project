@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+         HTML Form
+</title>
+<link rel="stylesheet" href="kl.css">
+</head>
+<body>
+<h1>HTML FORM</h1>
+<form>
+<label>
+	First Name
+</label>
+<input type="text" name="fname"><br>
+<label>
+	Last Name
+</label>
+<input type="text" name="lname"><br>
+<hr>
+<h2>Radio Button</h2>
+<p>Choose Your Favourite subject</p>
+<input type="radio" name="favSub" value="HTML">
+<label>HTML</label><br>
+  
+<input type="radio" name="favSub" value="CSS">
+<label>CSS</label><br> 
+
+<input type="radio" name="favSub" value="JavaScript">
+<label>JavaScript</label>  
+<hr>
+
+<h2>Checkboxes</h2>
+<p>Your Qualification</p>
+<input type="checkbox" name="check" value="10th">
+<label>10<sup>th</sup></label>
+<input type="checkbox" name="name" value="12th">
+<label>12<sup>th</sup></label>
+<input type="checkbox" name="check" value="ITI">
+<label>ITI</label>
+<input type="checkbox" name="name" value="Diploma">
+<label>Diploma</label>
+<input type="checkbox" name="check" value="UG">
+<label>UG</label>
+<input type="checkbox" name="name" value="CITS">
+<label>CITS</label>
+<input type="checkbox" name="check" value="PG">
+<label>PG</label>
+<hr>
+<h2>Select</h2>
+<p>Select your state</p>
+<select>
+<option value="Select">Select</option>
+<option value="Uttar Pradesh">Uttar Pradesh</option>
+<option value="Tamil Nadu">Tamil Nadu</option>
+<option value="Madhya Pradesh">Madhya Pradesh</option>
+<option value="Uttarakhand">Uttarakhand</option>
+<option value="Delhi">Delhi</option>
+<option value="Gujrat">Gujrat</option>
+<option value="Andhra Pradesh">Andhra Pradesh</option>
+</select>
+<hr>
+<h2>Submit button and password in html form</h2>
+<label>Email Id: <input type="text"></label>
+<label>Password:<input type="password"></label>
+<button type="submit">Submit</button></form>
+<hr>
+<h2>Textarea Tag</h2>
+<p>Enter Your Address</p>
+<textarea name="address" rows="3" cols="20"></textarea>
+<hr>
+<h2>Email</h2>
+<label>Enter Your Email:
+<input type="email" name="email">
+</label>
+<label>Enter Your DOB:
+<input type="date" name="DOB">
+</label>
+<button type="submit">Submit</button>
+<hr>
+<h2>Input type alert Button</h2>
+<input type="button" onclick="alert('Hello world')" value="Clickme">
+<hr>
+<h2>Input type color</h2>
+<label>Select the color:</label>
+<input type="color" name="favcolor" value="#ff0000">
+<input type="submit" value="submit">
+<hr>
+<h2>Input type file</h2>
+<label>Uplaod a file</label>
+<input type="file" name="file">
+<hr>
+<h2>Input type tel</h2>
+<label>Enter Your Number</label>
+<input type="tel" name="phone" placeholder="1234-567-890" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" required>
+<input type="submit" value="submit">
+<hr>
+<h2>the readonly attribute</h2>
+<p>The input readonly attribute specify that an input field is read only</p>
+<label>Enter your First Name:
+<input type="text" placeholder="you can't enter your first name" readonly>
+</label>
+<lable>Enter your Last Name: <input type="text" placeholder="Enter your last name"></label>
+<hr>
+<h2>Input the  Autofocus Attribute</h2>
+<p>The input autofocus attribute specifies that an input field automatically get focus  when focus the web page load</p>
+<label>Enter your first Name:<input type="text" autofocus></label>
+<label>Enter Your Last Name:<input type="text" autofocus></label>
+<hr>
+<h2>Submit & Reset Button</h2>
+<input type="submit" value="submit"><br>
+<input type="reset" value="Reset">
+</body>
+</html>
